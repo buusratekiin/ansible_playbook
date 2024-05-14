@@ -21,4 +21,5 @@ ansible all -m ping -u sysadmin --ask-pass
 ![Screenshot from 2024-05-14 16-34-43](https://github.com/buusratekiin/ansible_playbook/assets/88576734/854b53ce-c21d-4aac-81f2-7286b2c8095b)
 
 Run Command Playbooks:
+
 ansible-playbook -i /etc/ansible/hosts ymlname.yml --ask-pass --ask-become-pass
