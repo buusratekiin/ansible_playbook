@@ -16,6 +16,7 @@ sudo nano /etc/ansible/ansible.cfg
 ![Screenshot from 2024-05-14 16-33-10](https://github.com/buusratekiin/ansible_playbook/assets/88576734/26882a65-ab5f-4246-9e09-206a85dbdf23)
 
 Ping Test:
+
 ansible all -m ping -u sysadmin --ask-pass
 
 ![Screenshot from 2024-05-14 16-34-43](https://github.com/buusratekiin/ansible_playbook/assets/88576734/854b53ce-c21d-4aac-81f2-7286b2c8095b)
