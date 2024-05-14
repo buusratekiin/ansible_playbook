@@ -1,4 +1,5 @@
 sudo apt update -y && sudo apt upgrade -y
+
 sudo apt install ansible sshpass -y
 
 sudo nano /etc/ansible/hosts
