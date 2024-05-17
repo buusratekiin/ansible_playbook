@@ -15,4 +15,4 @@
 
     - name: İstenen Sütunları Görüntüle
       debug:
-        msg: "{{ ulimit_lines | map('regex_replace', '^(\\S+\\s+)([^\\s]+\\s+)(.*)$', '\\1\\3') | list }}"
+        msg: "{{ ulimit_lines }}"
