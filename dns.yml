@@ -11,4 +11,4 @@
 
     - name: Display DNS Servers
       debug:
-        msg: "DNS Servers on {{ inventory_hostname }}: {{ dns_servers.stdout_li>
+        msg: "DNS Servers on {{ inventory_hostname }}: {{ dns_servers.stdout_lines }}"
