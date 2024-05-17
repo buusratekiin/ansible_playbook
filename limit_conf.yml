@@ -6,8 +6,6 @@
     - name: Dosya Açma Sınırını Kontrol Et
       command: bash -c "ulimit -a"
       register: ulimit_output
-      args:
-        warn: false  # Hata çıkışını önlemek için
 
     - name: Dosya Açma Sınırı Bilgilerini İşle
       set_fact:
