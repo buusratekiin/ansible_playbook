@@ -12,5 +12,5 @@
 
     - name: Versiyon bilgisini görüntüle
       debug:
-        msg: "{{ ssh_version_output.stdout }}"
+        msg: "{{ ssh_version_output.stderr}}"
       when: ssh_version_output.rc == 0  # Komut başarıyla çalıştıysa
